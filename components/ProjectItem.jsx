@@ -10,7 +10,7 @@ const ProjectItem = ({title, description, link, status}) => {
           <br />
           <a className='font-bold underline' href={link} target="_blank" rel="noopener noreferrer">Check it out on Github!</a>
         </div>
-        <div class="text-sm text-gray-500">{status}</div>
+        <div className="text-sm text-gray-500">{status}</div>
       </div>
   </div>
 
