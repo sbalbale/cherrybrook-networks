@@ -10,9 +10,9 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#f00043]">
           Projects
         </p>
-        <h2>What I've Been Working On</h2>
+        <h2>What I&apos;ve Been Working On</h2>
         <p className="text-lg">
-          I've made a lot of things in the past. Here are some of my favorites!
+          I&apos;ve made a lot of things in the past. Here are some of my favorites!
         </p>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem

@@ -18,12 +18,12 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 font-extrabold ">
-            <span className="text-[#353238]">Hello, I'm</span>
+            <span className="text-[#353238]">Hello, I&apos;m</span>
             <span className="text-[#ff1744]"> Sean Balbale </span>
           </h1>
           <h1 className="py-2 font-extrabold text-[#353238]">
             <span className="xl:inline font-typewriter">
-              I'm a {text}
+              I&apos;m a {text}
               <Cursor cursorStyle="_" />
             </span>
           </h1>
