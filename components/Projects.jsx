@@ -36,7 +36,7 @@ const Projects = () => {
             description="
           This is a my personal portfolio website. I made it because I wanted to learn Next.js, React and Tailwind.
           I also wanted to practice using CSS, Javascript, and HTML."
-            link="https://github.com/sbalbale/Portfolio"
+            link="https://github.com/sbalbale/cherrybrook-networks"
             status="Completed on 08-14-2022"
           />
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f00043] to-[##5E4E92]">
