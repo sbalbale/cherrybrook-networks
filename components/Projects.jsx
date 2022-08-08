@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import ProjectItem from "./ProjectItem";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 
 const Projects = () => {
   return (
