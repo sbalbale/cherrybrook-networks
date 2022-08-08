@@ -2,7 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  unoptimized: true,
+  images: {
+  domains: ['sean.cherrybrooknetworks.dev'],
+  path: '/_next/image',
+  },
 }
 
 module.exports = nextConfig
