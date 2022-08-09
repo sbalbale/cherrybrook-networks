@@ -59,6 +59,7 @@ The following tools were used in this project:
 - [React.JS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Icons](https://react-icons.github.io/react-icons)
+
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
