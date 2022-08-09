@@ -9,13 +9,17 @@
 <h1 align="center">Cherrybrook Networks</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/sbalbale/cherrybrook-networks?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/sbalbale/cherrybrook-networks?color=4484c7">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/sbalbale/cherrybrook-networks?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/sbalbale/cherrybrook-networks?color=4484c7">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/sbalbale/cherrybrook-networks?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/sbalbale/cherrybrook-networks?color=4484c7">
 
-  <img alt="License" src="https://img.shields.io/github/license/sbalbale/cherrybrook-networks ?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/sbalbale/cherrybrook-networks?color=4484c7">
+
+  <img alt="Linef of Code" src="https://tokei.cherrybrooknetworks.dev/b1/github/sbalbale/cherrybrook-networks">
+  
+  <img alt="Number of Files" src="https://img.shields.io/github/directory-file-count/sbalbale/cherrybrook-networks?color=4484c7">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/sbalbale/cherrybrook-networks?color=56BEB8" /> -->
 

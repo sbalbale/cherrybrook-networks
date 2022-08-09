@@ -17,7 +17,7 @@ const Navbar = () => {
     if(
       router.asPath === '/resume'
     ) {
-      setNavBg('transparent');
+      setNavBg('#edf0f3');
       setLinkColor('#353238');
     }
     else{

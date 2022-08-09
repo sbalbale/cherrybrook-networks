@@ -38,8 +38,9 @@ const resume = () => {
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
-            <p>Software Development 
-              <span className="px-1">|</span> Engineering {" "}
+            <p>
+              Software Development
+              <span className="px-1">|</span> Engineering{" "}
               <span className="px-1">|</span> Complex Problem Solving
             </p>
           </div>
@@ -62,20 +63,20 @@ const resume = () => {
         {/* Skills */}
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          <p className="py-2">
+          <p className="py-2 text-center">
             <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span><span className="px-2">Python</span>
-            <span className="px-2">|</span><span className="px-2">Java</span>
-            <span className="px-2">|</span><span className="px-2">Arduino</span>
-            <span className="px-2">|</span><span className="px-2">HTML </span>
-            <span className="px-2">|</span><span className="px-2">CSS </span>
-            <span className="px-2">|</span><span className="px-2">Tailwind CSS</span>
-            <span className="px-2">|</span><span className="px-2">Javascript</span>
-            <span className="px-2">|</span><span className="px-2">Node.JS</span>
-            <span className="px-2">|</span><span className="px-2">React.JS</span>
-            <span className="px-2">|</span><span className="px-2">Next.JS</span>
-            <span className="px-2">|</span><span className="px-2">Git</span>
-            <span className="px-2">|</span><span className="px-2">Twilio</span>
+            <span className="px-2">|</span> Python 
+            <span className="px-2">|</span> Java 
+            <span className="px-2">|</span> Arduino 
+            <span className="px-2">|</span> HTML 
+            <span className="px-2">|</span> CSS 
+            <span className="px-2">|</span> Tailwind  
+            <span className="px-2">|</span> Javascript 
+            <span className="px-2">|</span> Node.JS 
+            <span className="px-2">|</span> React.JS 
+            <span className="px-2">|</span> Next.JS 
+            <span className="px-2">|</span> Git 
+            <span className="px-2">|</span> Twilio 
           </p>
         </div>
 
@@ -90,7 +91,9 @@ const resume = () => {
           </p>
           <p className="py-1 italic">CTO (2019-2022) </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>Managed all the technological needs of Dockyard Capital Management</li>
+            <li>
+              Managed all the technological needs of Dockyard Capital Management
+            </li>
             <li>Designed and built software to solve schedule conflicts</li>
           </ul>
         </div>
