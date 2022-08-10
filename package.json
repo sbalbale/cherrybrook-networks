@@ -11,9 +11,15 @@
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "next": "12.2.4",
+    "node-fetch": "^3.2.10",
+    "notion-client": "^6.13.0",
+    "notion-types": "^6.12.6",
+    "notion-utils": "^6.12.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "react-notion": "^0.10.0",
+    "react-notion-x": "^6.13.1",
     "react-simple-typewriter": "^3.0.1",
     "typewriter-effect": "^2.19.0"
   },
