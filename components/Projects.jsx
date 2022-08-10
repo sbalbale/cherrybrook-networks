@@ -11,9 +11,6 @@ const Projects = () => {
           Projects
         </p>
         <h2>What I&apos;ve Been Working On</h2>
-        <p className="text-lg">
-          I&apos;ve made a lot of things in the past. Here are some of my favorites!
-        </p>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="15-112: Fail Early and Often"
