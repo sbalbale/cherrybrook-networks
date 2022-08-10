@@ -6,7 +6,7 @@ import { NotionPage } from '../components/NotionPage'
 import { rootNotionPageId } from '../lib/config'
 import notion from '../lib/notion'
 
-export const getStaticProps = async (context) => {
+export const getStaticProps = async (context: { params: { pageId: string } }) => {
   const pageId = (context.params.pageId as string) || rootNotionPageId
   const recordMap = await notion.getPage(pageId)
 
