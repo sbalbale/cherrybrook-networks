@@ -41,7 +41,7 @@ const Main = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a
                       className="font-bold underline"
-                      href="https://www.linkedin.com/in/sean-balbale-7b7689174/"
+                      href="https://www.linkedin.com/in/seanbalbale"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
