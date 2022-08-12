@@ -15,7 +15,7 @@ const Main = () => {
   });
   return (
     <div id='home' className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center py-32">
         <div>
           <h1 className="py-4 font-extrabold ">
             <span className="text-[#353238]">Hello, I&apos;m</span>

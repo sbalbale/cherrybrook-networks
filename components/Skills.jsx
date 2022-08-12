@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
-        <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+        <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full py-32'>
             <p className='text-xl tracking-widest uppercase text-[#f00043]'>Skills</p>
             <h2>What I Can Do</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>

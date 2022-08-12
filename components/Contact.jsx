@@ -32,7 +32,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] px-2 py-16 mx-auto flex flex-col justify-center h-full">
+      <div className="max-w-[1240px] px-2 mx-auto flex flex-col justify-center h-full py-32">
         <p className="text-xl tracking-widest uppercase text-[#f00043]">
           Contact
         </p>

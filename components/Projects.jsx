@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Projects = () => {
   return (
     <div id="projects" className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full py-32">
         <p className="text-xl tracking-widest uppercase text-[#f00043]">
           Projects
         </p>
