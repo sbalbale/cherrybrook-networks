@@ -47,6 +47,7 @@ export const NotionPage = ({
         header={false}
         rootPageId={rootPageId}
         components={{
+          Pdf,
           Equation,
         }}
       />
