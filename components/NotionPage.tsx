@@ -5,6 +5,7 @@ import { NotionRenderer } from "react-notion-x";
 import { ExtendedRecordMap } from "notion-types";
 import { getPageTitle } from "notion-utils";
 import { Pdf } from "react-notion-x/build/third-party/pdf";
+import { Equation } from 'react-notion-x/build/third-party/equation'
 import dynamic from "next/dynamic";
 import Link from "next/link";
 
@@ -29,9 +30,14 @@ export const NotionPage = ({
   const titlePage = getPageTitle(recordMap);
   console.log(titlePage, recordMap);
 
-  const Equation = dynamic(() =>
-    import("react-notion-x/build/third-party/equation").then((m) => m.Equation)
-  );
+  // const Pdf = dynamic(() => import("react-notion-x/build/third-party/pdf").then((m) => m.Pdf),
+  //   {
+  //     ssr: false,
+  //   }
+  // );
+  // const Equation = dynamic(() =>
+  //   import("react-notion-x/build/third-party/equation").then((m) => m.Equation)
+  // );
 
   return (
     <>
