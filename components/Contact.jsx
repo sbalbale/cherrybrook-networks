@@ -45,53 +45,53 @@ const Contact = () => {
                 <h2 className="py-2">Sean Balbale</h2>
                 <p>Full Stack and Software Developer</p>
                 <p className="py-4">
-                  I am available for freelance positions. Contact me and let&apos;s
-                  chat!
+                  I am available for freelance positions. Contact me and
+                  let&apos;s chat!
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8 font-bold">Contact Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="font-bold underline"
-                      href="https://github.com/sbalbale"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                  <a
+                    className="font-bold underline"
+                    href="https://github.com/sbalbale"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
-                    </a>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="font-bold underline"
-                      href="https://www.linkedin.com/in/seanbalbale"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    className="font-bold underline"
+                    href="https://www.linkedin.com/in/seanbalbale"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
-                    </a>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="font-bold underline"
-                      href="https://twitter.com/seanbalbale"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    className="font-bold underline"
+                    href="https://twitter.com/seanbalbale"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsTwitter />
-                    </a>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      className="font-bold underline"
-                      href="https://discordapp.com/users/325794320042950666"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    className="font-bold underline"
+                    href="https://discordapp.com/users/325794320042950666"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaDiscord />
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

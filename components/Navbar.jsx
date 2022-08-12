@@ -9,22 +9,19 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#edf0f3');
-  const [linkColor, setLinkColor] = useState('#353238');
+  const [navBg, setNavBg] = useState("#edf0f3");
+  const [linkColor, setLinkColor] = useState("#353238");
   const router = useRouter();
 
   useEffect(() => {
-    if(
-      router.asPath === '/resume'
-    ) {
-      setNavBg('#edf0f3');
-      setLinkColor('#353238');
+    if (router.asPath === "/resume") {
+      setNavBg("#edf0f3");
+      setLinkColor("#353238");
+    } else {
+      setNavBg("#edf0f3");
+      setLinkColor("#353238");
     }
-    else{
-      setNavBg('#edf0f3');
-      setLinkColor('#353238');
-    }
-  },[router]);
+  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -43,9 +40,7 @@ const Navbar = () => {
 
   return (
     <div
-      style={{backgroundColor: `${navBg}`,
-              color: `${linkColor}`,}}
-      
+      style={{ backgroundColor: `${navBg}`, color: `${linkColor}` }}
       className={
         shadow
           ? "fixed w-full h-[100px] shadow-xl z-[100]"
@@ -123,22 +118,34 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Home</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Home
+                </li>
               </Link>
               <Link href="/#about">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">About</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  About
+                </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Skills</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Skills
+                </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Projects</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Projects
+                </li>
               </Link>
               <Link href="/resume">
-                <li onClick={()=> setNav(false)}i className="py-4 text-sm">Resume</li>
+                <li onClick={() => setNav(false)} i className="py-4 text-sm">
+                  Resume
+                </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Contact</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Contact
+                </li>
               </Link>
             </ul>
             <div className="pt-40">
@@ -146,46 +153,46 @@ const Navbar = () => {
                 Lets Chat
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <a
-                    className="font-bold underline"
-                    href="https://github.com/sbalbale"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                <a
+                  className="font-bold underline"
+                  href="https://github.com/sbalbale"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaGithub />
-                  </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <a
-                    className="font-bold underline"
-                    href="https://www.linkedin.com/in/seanbalbale"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </div>
+                </a>
+                <a
+                  className="font-bold underline"
+                  href="https://www.linkedin.com/in/seanbalbale"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn />
-                  </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <a
-                    className="font-bold underline"
-                    href="https://twitter.com/seanbalbale"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </div>
+                </a>
+                <a
+                  className="font-bold underline"
+                  href="https://twitter.com/seanbalbale"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsTwitter />
-                  </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <a
-                    className="font-bold underline"
-                    href="https://discordapp.com/users/325794320042950666"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </div>
+                </a>
+                <a
+                  className="font-bold underline"
+                  href="https://discordapp.com/users/325794320042950666"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaDiscord />
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
