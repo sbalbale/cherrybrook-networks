@@ -30,15 +30,6 @@ export const NotionPage = ({
   const titlePage = getPageTitle(recordMap);
   console.log(titlePage, recordMap);
 
-  // const Pdf = dynamic(() => import("react-notion-x/build/third-party/pdf").then((m) => m.Pdf),
-  //   {
-  //     ssr: false,
-  //   }
-  // );
-  // const Equation = dynamic(() =>
-  //   import("react-notion-x/build/third-party/equation").then((m) => m.Equation)
-  // );
-
   return (
     <>
       <Head>
