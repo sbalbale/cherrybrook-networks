@@ -20,14 +20,14 @@ const Projects = () => {
             link="https://github.com/sbalbale/15-112-Fail-Early-and-Often"
             status="Completed on 08-13-22"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Space Invaders"
             description="
           Space Invaders is a clone of the classic game Space Invaders for the Atari 2600.
           I made this game because I wanted to practice using Pygame."
             link="https://github.com/sbalbale/SpaceInvaders"
             status="Completed on 07-20-2020"
-          />
+          /> */}
           <ProjectItem
             title="Cherrybrook Networks"
             description="
@@ -35,6 +35,13 @@ const Projects = () => {
           I also wanted to practice using CSS, Javascript, and HTML."
             link="https://github.com/sbalbale/cherrybrook-networks"
             status="Completed on 08-14-2022"
+          />
+          <ProjectItem
+            title="Infinite Campus to Google Calendar"
+            description="
+          This is a web app that I made to help my school schedule classes on Google Calendar."
+            link="https://github.com/sbalbale/infinite-campus-to-google-calendar"
+            status="In Progress"
           />
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f00043] to-[##5E4E92]">
             <a
