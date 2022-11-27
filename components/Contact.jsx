@@ -93,6 +93,18 @@ const Contact = () => {
                     </div>
                   </a>
                 </div>
+                <div>
+                  <a
+                    className="font-bold underline"
+                    href="https://www.vcard.link/card/DWeQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="w-full p-4 text-gray-100 mt-4">
+                      Download My Contact Info
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
