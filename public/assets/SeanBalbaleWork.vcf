@@ -2,12 +2,12 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Sean Balbale
 N:Balbale;Sean;;;
-EMAIL;TYPE=WORK:sean@cherrybrooknetworks.dev
-TEL;TYPE=WORK:(617) 651-2263
+EMAIL;TYPE=Work:sean@cherrybrooknetworks.dev
+TEL;TYPE=Work:(617) 651-2263
 item1.ORG:Senior at Weston High School
 item1.X-ABLabel:work
 item2.URL:https\://cherrybrooknetworks.dev
-item2.X-ABLabel:homePage
+item2.X-ABLabel:Home Page
 PHOTO:https://lh3.googleusercontent.com/contacts/ABsqplt_9HDPZyrAp-L8YefbSm
  9AoKuPuk9COCHwHhuoIDDhrvyq1LL6
 CATEGORIES:myContacts
