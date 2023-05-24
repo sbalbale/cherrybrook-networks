@@ -58,6 +58,7 @@ const Projects = () => {
                     <FaGithub size={50} style={{ marginRight: "1rem" }} />
                   </div>
                 </div>
+                <div className="text-sm text-gray-500"></div>
               </div>
             </div>
           </a>
