@@ -51,9 +51,6 @@ const Projects = () => {
               <div className="py-5 overflow-y-hidden space-y-3">
                 <div className="text-2xl font-bold text-[#353238]">
                   Check out my other projects!
-
-
-                  
                 </div>
                 <div className="px-3 py-2 flex items-center justify-center h-auto w-full ">
                   <h2 className="text-center">@sbalbale on Github</h2>
