@@ -42,12 +42,12 @@ const Projects = () => {
             link="https://github.com/sbalbale/infinite-campus-to-google-calendar"
             status="In Progress"
           />
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f00043] to-[##5E4E92]">
-            <a
-              href="https://github.com/sbalbale"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <a
+            href="https://github.com/sbalbale"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f00043] to-[##5E4E92]">
               <div className="py-5 overflow-y-hidden space-y-3">
                 <div className="text-2xl font-bold text-[#353238]">
                   Check out my other projects!
@@ -59,8 +59,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
