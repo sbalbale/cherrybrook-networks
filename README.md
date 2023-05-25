@@ -16,8 +16,6 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/sbalbale/cherrybrook-networks?color=4484c7">
 
   <img alt="License" src="https://img.shields.io/github/license/sbalbale/cherrybrook-networks?color=4484c7">
-
-  <img alt="Linef of Code" src="https://tokei.cherrybrooknetworks.dev/b1/github/sbalbale/cherrybrook-networks">
   
   <img alt="Number of Files" src="https://img.shields.io/github/directory-file-count/sbalbale/cherrybrook-networks?color=4484c7">
 
