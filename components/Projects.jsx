@@ -2,7 +2,6 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import { FaGithub } from "react-icons/fa";
 
-
 const Projects = () => {
   return (
     <div id="projects" className="w-full lg:h-screen p-2">
@@ -43,6 +42,7 @@ const Projects = () => {
             link="https://github.com/sbalbale/infinite-campus-to-google-calendar"
             status="In Progress"
           />
+
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f00043] to-[##5E4E92]">
             <a
               href="https://github.com/sbalbale"
