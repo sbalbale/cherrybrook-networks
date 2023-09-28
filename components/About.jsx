@@ -13,8 +13,9 @@ const About = () => {
           <p className="py-2 text-gray-600">
             I&apos;ve loved technology and engineering for as long as I can
             remember. I taught myself how to code when I was ten and have been
-            coding ever since. Eight years later and I&apos;m now a senior in
-            high school. I love to code and create new things and always want to
+            coding ever since. Nine years later and I&apos;m now a freshman at 
+            Northeastern University studying Computer Engineering and Computer 
+            Science. I love to code and create new things and always want to
             learn more!
           </p>
 
