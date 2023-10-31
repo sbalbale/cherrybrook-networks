@@ -15,8 +15,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/python.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -29,8 +29,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/java.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -43,8 +43,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/javascript.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -57,8 +57,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/node.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -71,8 +71,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/react.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -85,8 +85,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/nextjs.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -99,8 +99,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/html.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -113,8 +113,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/css.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -127,8 +127,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/tailwind.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -141,8 +141,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/arduino.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -155,8 +155,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/git.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -169,8 +169,8 @@ const Skills = () => {
                         <div className='m-auto'>
                         <Image
                         src='/assets/skills/twilio.png'
-                        width='64px'
-                        height='64px'
+                        width='64'
+                        height='64'
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
