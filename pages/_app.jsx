@@ -12,6 +12,9 @@ import "react-notion/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
 import React from "react";
 
+// Vercel Speed Insights
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
