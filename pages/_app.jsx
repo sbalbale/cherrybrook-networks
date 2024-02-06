@@ -21,6 +21,8 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 }
