@@ -94,11 +94,11 @@ const Skills = () => {
                         </div>
                     </div>
                 </a>
-                <a className='p-6 shadow-xl rounded-xl hover:sclae-105 ease-in duration-300' href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">
+                <a className='p-6 shadow-xl rounded-xl hover:sclae-105 ease-in duration-300' href="https://isocpp.org/" target="_blank" rel="noopener noreferrer">
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                         <Image
-                        src='/assets/skills/html.png'
+                        src='/assets/skills/c++.png'
                         width='64'
                         height='64'
                         alt='/'/>

@@ -96,7 +96,7 @@ const Contact = () => {
                 <div>
                   <a
                     className="font-bold underline"
-                    href="/assets/SeanBalbaleWork.vcf"
+                    href="/assets/SeanBalbaleWorkDotCard.vcf"
                     download="Sean's Resume"
                     target="_blank"
                     rel="noopener noreferrer"
