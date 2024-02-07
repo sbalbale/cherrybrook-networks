@@ -104,7 +104,7 @@ const Skills = () => {
                         alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>HTML</h3>
+                            <h3>C++</h3>
                         </div>
                     </div>
                 </a>
