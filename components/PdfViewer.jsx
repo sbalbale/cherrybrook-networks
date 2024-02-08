@@ -15,6 +15,11 @@ function PdfViewer({ url }) {
   return (
     <div className="h-screen w-screen py-32">
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js"></Worker>
+      {/* 
+      SpecialZoomLevel.PageFit
+      SpecialZoomLevel.PageWidth
+      SpecialZoomLevel.ActualSize 
+      */}
         <Viewer
           defaultScale={SpecialZoomLevel.PageFit}
           theme={"auto"}
