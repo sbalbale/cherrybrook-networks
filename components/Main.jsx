@@ -4,6 +4,7 @@ import { FaDiscord, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill, BsTwitter } from "react-icons/bs";
 import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
+import Link from 'next/link';
 
 const Main = () => {
   const { text } = useTypewriter({
@@ -28,7 +29,7 @@ const Main = () => {
             </span>
           </h1>
           <div className="flex items-center justify-between py-4">
-            <a
+            <Link
               className="font-bold underline"
               href="https://github.com/sbalbale"
               target="_blank"
@@ -37,8 +38,8 @@ const Main = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-bold underline"
               href="https://www.linkedin.com/in/seanbalbale"
               target="_blank"
@@ -47,8 +48,8 @@ const Main = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-bold underline"
               href="https://twitter.com/seanbalbale"
               target="_blank"
@@ -57,8 +58,8 @@ const Main = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsTwitter />
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-bold underline"
               href="https://discordapp.com/users/325794320042950666"
               target="_blank"
@@ -67,7 +68,7 @@ const Main = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaDiscord />
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { FaDiscord, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { useRouter } from "next/router";
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -153,7 +154,7 @@ const Navbar = () => {
                 Lets Chat
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a
+                <Link
                   className="font-bold underline"
                   href="https://github.com/sbalbale"
                   target="_blank"
@@ -162,8 +163,8 @@ const Navbar = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaGithub />
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="font-bold underline"
                   href="https://www.linkedin.com/in/seanbalbale"
                   target="_blank"
@@ -172,8 +173,8 @@ const Navbar = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="font-bold underline"
                   href="https://twitter.com/seanbalbale"
                   target="_blank"
@@ -182,8 +183,8 @@ const Navbar = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsTwitter />
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="font-bold underline"
                   href="https://discordapp.com/users/325794320042950666"
                   target="_blank"
@@ -192,7 +193,7 @@ const Navbar = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaDiscord />
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

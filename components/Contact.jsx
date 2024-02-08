@@ -52,7 +52,7 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8 font-bold">Contact Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <a
+                  <Link
                     className="font-bold underline"
                     href="https://github.com/sbalbale"
                     target="_blank"
@@ -61,8 +61,8 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="font-bold underline"
                     href="https://www.linkedin.com/in/seanbalbale"
                     target="_blank"
@@ -71,8 +71,8 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="font-bold underline"
                     href="https://twitter.com/seanbalbale"
                     target="_blank"
@@ -81,8 +81,8 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsTwitter />
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="font-bold underline"
                     href="https://discordapp.com/users/325794320042950666"
                     target="_blank"
@@ -91,20 +91,20 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaDiscord />
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a
+                  <Link
                     className="font-bold underline"
                     href="/assets/SeanBalbaleWorkDotCard.vcf"
-                    download="Sean's Resume"
+                    download="SeanBalbaleContactInfo"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <button className="w-full p-4 text-gray-100 mt-4">
                       Download My Contact Info
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label clasName="uppercase text-sm py-2">Name</label>
+                    <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
@@ -124,7 +124,7 @@ const Contact = () => {
                   </div>
 
                   <div className="flex flex-col">
-                    <label clasName="uppercase text-sm py-2">
+                    <label className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
@@ -136,7 +136,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col py-2">
-                  <label clasName="uppercase text-sm py-2">Email</label>
+                  <label className="uppercase text-sm py-2">Email</label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
@@ -145,7 +145,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col py-2">
-                  <label clasName="uppercase text-sm py-2">Subject</label>
+                  <label className="uppercase text-sm py-2">Subject</label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
@@ -154,7 +154,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col py-2">
-                  <label clasName="uppercase text-sm py-2">Message</label>
+                  <label className="uppercase text-sm py-2">Message</label>
                   <textarea
                     className="boarder-3 rounded:lg border-gray-300"
                     rows="10"

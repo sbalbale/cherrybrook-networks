@@ -20,20 +20,20 @@ const resume = () => {
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">Sean Balbale</h2>
           <div className="flex">
-            <a
+            <Link
               href="https://www.linkedin.com/in/seanbalbale"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedinIn size={25} style={{ marginRight: "1rem" }} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/sbalbale"
               target="_blank"
               rel="noreferrer"
             >
               <FaGithub size={25} style={{ marginRight: "1rem" }} />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
