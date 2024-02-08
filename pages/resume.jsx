@@ -3,7 +3,7 @@ import PdfViewer from "../components/PdfViewer";
 const Resume = () => {
   return (
     <div>      
-    <PdfViewer url={"/assets/SeanBalbaleResume.Pdf"} />
+    <PdfViewer url={"/assets/SeanBalbaleResume.pdf"} />
     </div>
   );
 };
