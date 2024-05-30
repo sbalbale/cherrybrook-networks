@@ -37,11 +37,11 @@ const Projects = () => {
             status="Completed on 08-14-2022"
           />
           <ProjectItem
-            title="Infinite Campus to Google Calendar"
+            title="CS 2510 Project 2"
             description="
-          This is a web app that I made to help my school schedule classes on Google Calendar."
-            link="https://github.com/sbalbale/infinite-campus-to-google-calendar"
-            status="In Progress"
+          This is a java based image editing software that I made for my CS 2510 class at Northeastern University. It has an interactive menu and uses seam carving to resize images."
+            link="https://github.com/sbalbale/CS2510-Project-2"
+            status="Completed on 08-18-2024"
           />
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f00043] to-[##5E4E92]">
             <Link
