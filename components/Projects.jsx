@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import { FaGithub } from "react-icons/fa";
-import Link from 'next/link';
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -12,6 +12,13 @@ const Projects = () => {
         </p>
         <h2>What I&apos;ve Been Working On</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="CS 2510 Project 2"
+            description="
+          This is a java based image editing software that I made for my CS 2510 class at Northeastern University. It has an interactive menu and uses seam carving to resize images."
+            link="https://github.com/sbalbale/CS2510-Project-2"
+            status="Completed on 08-18-2024"
+          />
           <ProjectItem
             title="15-112: Fail Early and Often"
             description="
@@ -34,14 +41,7 @@ const Projects = () => {
           This is a my personal portfolio website. I made it because I wanted to learn Next.js, React and Tailwind.
           I also wanted to practice using CSS, Javascript, and HTML."
             link="https://github.com/sbalbale/cherrybrook-networks"
-            status="Completed on 08-14-2022"
-          />
-          <ProjectItem
-            title="CS 2510 Project 2"
-            description="
-          This is a java based image editing software that I made for my CS 2510 class at Northeastern University. It has an interactive menu and uses seam carving to resize images."
-            link="https://github.com/sbalbale/CS2510-Project-2"
-            status="Completed on 08-18-2024"
+            status="Completed on 07-14-2022"
           />
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f00043] to-[##5E4E92]">
             <Link
