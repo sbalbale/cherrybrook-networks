@@ -17,7 +17,7 @@ const Projects = () => {
             description="
           This is a java based image editing software that I made for my CS 2510 class at Northeastern University. It has an interactive menu and uses seam carving to resize images."
             link="https://github.com/sbalbale/CS2510-Project-2"
-            status="Completed on 08-18-2024"
+            status="Completed on 04-18-2024"
           />
           <ProjectItem
             title="15-112: Fail Early and Often"
