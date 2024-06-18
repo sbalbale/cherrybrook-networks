@@ -1,0 +1,218 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @layer base {
+    :root {
+      --background: ${bgL.hslRaw};
+      --foreground: ${textL.hslRaw};
+      --card: ${bgL.hslRaw};
+      --card-foreground: ${textL.hslRaw};
+      --popover: ${bgL.hslRaw};
+      --popover-foreground: ${textL.hslRaw};
+      --primary: ${primaryL.hslRaw};
+      --primary-foreground: ${primaryFgL.hslRaw};
+      --secondary: ${secondaryL.hslRaw};
+      --secondary-foreground: ${secondaryFgL.hslRaw};
+      --muted: ${bgL.hslRaw.20};
+      --muted-foreground: ${textL.hslRaw.70};
+      --accent: ${accentL.hslRaw};
+      --accent-foreground: ${accentFgL.hslRaw};
+      --destructive: 0 85% 60%;
+      --destructive-foreground: ${textL.hslRaw};
+      --border: ${bgL.hslRaw.20};
+      --input: ${bgL.hslRaw.20};
+      --ring: ${accentL.hslRaw.40};
+      --radius: 0.5rem;
+    }
+   
+    .dark {
+      --background: ${bgD.hslRaw};
+      --foreground: ${textD.hslRaw};
+      --card: ${bgD.hslRaw};
+      --card-foreground: ${textD.hslRaw};
+      --popover: ${bgD.hslRaw};
+      --popover-foreground: ${textD.hslRaw};
+      --primary: ${primaryD.hslRaw};
+      --primary-foreground: ${primaryFgD.hslRaw};
+      --secondary: ${secondaryD.hslRaw};
+      --secondary-foreground: ${secondaryFgD.hslRaw};
+      --muted: ${bgD.hslRaw.80};
+      --muted-foreground: ${textD.hslRaw};
+      --accent: ${accentD.hslRaw};
+      --accent-foreground: ${accentFgD.hslRaw};
+      --destructive: 0 62% 30%;
+      --destructive-foreground: ${textD.hslRaw.10};
+      --border: ${bgD.hslRaw.60};
+      --input: ${bgD.hslRaw.80};
+      --ring: ${accentD.hslRaw.60};
+    }
+  }
+/* /////////////////////////////////////////////////////// */
+  /* Design One */
+  /* @layer base {
+    :root {
+      --background: #dedede;
+      --foreground: #050505;
+      --card: #dedede;
+      --card-foreground: #050505;
+      --popover: #dedede;
+      --popover-foreground: #050505;
+      --primary: #cf1020;
+      --primary-foreground: #dedede;
+      --secondary: #8a2be2;
+      --secondary-foreground: #dedede;
+      --muted: #333333;
+      --muted-foreground: #b3b3b3;
+      --accent: #0000ff;
+      --accent-foreground: #dedede;
+      --destructive: #ff0000;
+      --destructive-foreground: #050505;
+      --border: #333333;
+      --input: #333333;
+      --ring: #0000ff;
+      --radius: 0.5rem;
+    }
+   
+    .dark {
+      --background: #212121;
+      --foreground: #fcfcfc;
+      --card: #212121;
+      --card-foreground: #fcfcfc;
+      --popover: #212121;
+      --popover-foreground: #fcfcfc;
+      --primary: #ff2a6d;
+      --primary-foreground: #212121;
+      --secondary: #ab39ff;
+      --secondary-foreground: #212121;
+      --muted: #cccccc;
+      --muted-foreground: #fcfcfc;
+      --accent: #3b5bff;
+      --accent-foreground: #212121;
+      --destructive: #4d0000;
+      --destructive-foreground: #1a1a1a;
+      --border: #666666;
+      --input: #cccccc;
+      --ring: #3b5bff;
+    }
+  } */
+
+
+/* /////////////////////////////////////////////////////// */
+  /* Design Two */
+  @layer base {
+      :root {
+        --background: #fffffa;
+        --foreground: #000000;
+        --card: #fffffa;
+        --card-foreground: #000000;
+        --popover: #fffffa;
+        --popover-foreground: #000000;
+        --primary: #ff3366;
+        --primary-foreground: #000000;
+        --secondary: #33ccff;
+        --secondary-foreground: #000000;
+        --muted: #cccccc;
+        --muted-foreground: #7f7e7e;
+        --accent: #9999ff;
+        --accent-foreground: #fffffa;
+        --destructive: #ff0055;
+        --destructive-foreground: #000000;
+        --border: #cccccc;
+        --input: #cccccc;
+        --ring: #9999cc;
+        --radius: 0.5rem;
+      }
+     
+      .dark {
+        --background: #000000;
+        --foreground: #ffffff;
+        --card: #000000;
+        --card-foreground: #ffffff;
+        --popover: #000000;
+        --popover-foreground: #ffffff;
+        --primary: #ff3366;
+        --primary-foreground: #ffffff;
+        --secondary: #33ccff;
+        --secondary-foreground: #000000;
+        --muted: #333333;
+        --muted-foreground: #b3b3b3;
+        --accent: #9999ff;
+        --accent-foreground: #000000;
+        --destructive: #990033;
+        --destructive-foreground: #1a1a1a;
+        --border: #666666;
+        --input: #333333;
+        --ring: #9999cc;
+      }
+    }
+
+/* /////////////////////////////////////////////////////// */
+  /* Design Three */
+  /* @layer base {
+      :root {
+        --background: #dcdcdc;
+        --foreground: #050505;
+        --card: #dcdcdc;
+        --card-foreground: #050505;
+        --popover: #dcdcdc;
+        --popover-foreground: #050505;
+        --primary: #b30000;
+        --primary-foreground: #dcdcdc;
+        --secondary: #6600cc;
+        --secondary-foreground: #dcdcdc;
+        --muted: #333333;
+        --muted-foreground: #b3b3b3;
+        --accent: #3333cc;
+        --accent-foreground: #dcdcdc;
+        --destructive: #990000;
+        --destructive-foreground: #050505;
+        --border: #333333;
+        --input: #333333;
+        --ring: #6666cc;
+        --radius: 0.5rem;
+      }
+     
+      .dark {
+        --background: #212121;
+        --foreground: #fafafa;
+        --card: #212121;
+        --card-foreground: #fafafa;
+        --popover: #212121;
+        --popover-foreground: #fafafa;
+        --primary: #b30000;
+        --primary-foreground: #212121;
+        --secondary: #6600cc;
+        --secondary-foreground: #212121;
+        --muted: #cccccc;
+        --muted-foreground: #fafafa;
+        --accent: #3333cc;
+        --accent-foreground: #212121;
+        --destructive: #4d0000;
+        --destructive-foreground: #1a1a1a;
+        --border: #999999;
+        --input: #cccccc;
+        --ring: #9999cc;
+      }
+    } */
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      @apply font-bold
+    }
+  
+    h1 {
+      @apply text-4xl sm:text-5xl md:text-6xl
+    }
+  
+    h2 {
+      @apply text-3xl sm:text-4xl
+    }
+  }

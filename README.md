@@ -1,73 +1,36 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Cherrybrook Networks" />
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-  &#xa0;
+## Getting Started
 
-  <!-- <a href="https://cherrybrooknetworks.netlify.app">Demo</a> -->
-</div>
+First, run the development server:
 
-<h1 align="center">Cherrybrook Networks</h1>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/sbalbale/cherrybrook-networks?color=4484c7">
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/sbalbale/cherrybrook-networks?color=4484c7">
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/sbalbale/cherrybrook-networks?color=4484c7">
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-  <img alt="License" src="https://img.shields.io/github/license/sbalbale/cherrybrook-networks?color=4484c7">
-  
-  <img alt="Number of Files" src="https://img.shields.io/github/directory-file-count/sbalbale/cherrybrook-networks?color=4484c7">
+## Learn More
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/sbalbale/cherrybrook-networks?color=56BEB8" /> -->
+To learn more about Next.js, take a look at the following resources:
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/sbalbale/cherrybrook-networks?color=56BEB8" /> -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/sbalbale/cherrybrook-networks?color=56BEB8" /> -->
-</p>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-<!-- Status -->
+## Deploy on Vercel
 
-<!-- <h4 align="center"> 
-<<<<<<< HEAD
-	🚧  Cherrybrook Networks 🚀 Under construction...  🚧
-</h4> 
-=======
-	🚧  cherrybrook-networks 🚀 Under construction...  🚧
-</h4> -->
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/sbalbale" target="_blank">Author</a>
-</p>
-
-<br>
-
-## :dart: About ##
-
-This is my portfolio website.
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Next.JS](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Node.JS](https://nodejs.org/)
-- [React.JS](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React Icons](https://react-icons.github.io/react-icons)
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
-
-
-Made with :heart: by <a href="https://github.com/sbalbale" target="_blank">Sean Balbale</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
