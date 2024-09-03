@@ -77,13 +77,13 @@ export default function Navbar() {
           >
             Resume
           </Link>
-          <Link
+          {/* <Link
             href="/installs"
             className="text-foreground hover:text-accent"
             prefetch={false}
           >
             Installs
-          </Link>
+          </Link> */}
           <Link
             href="/#contact"
             className="text-foreground hover:text-accent"
@@ -139,13 +139,13 @@ export default function Navbar() {
               >
                 Resume
               </Link>
-              <Link
+              {/* <Link
                 href="/installs"
                 className="flex items-center text-lg font-semibold text-foreground"
                 prefetch={false}
               >
                 Installs
-              </Link>
+              </Link> */}
               <Link
                 href="/#contact"
                 className="flex items-center text-lg font-semibold text-foreground"
