@@ -8,12 +8,11 @@ const About = () => {
         <div className="col-span-2">
           <h2 className="py-4 text-primary">About Me</h2>
           <p className="py-2 text-foreground">
-            I&apos;ve loved technology and engineering for as long as I can
-            remember. I taught myself how to code when I was ten and have been
-            coding ever since. Nine years later and I&apos;m now a sophmore at 
-            Northeastern University studying Computer Engineering and Computer 
-            Science. I love to code and create new things and always want to
-            learn more!
+            I&apos;ve loved technology and engineering for as long as I can remember. 
+            I taught myself how to code when I was ten and have been coding ever since. 
+            Nine years later, I&apos;m a sophomore at Northeastern University studying Computer 
+            Engineering and Computer Science. I love to code and create new things, and I always want 
+            to learn more!
           </p>
 
           <Link href="/#projects">
