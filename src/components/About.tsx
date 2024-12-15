@@ -10,7 +10,7 @@ const About = () => {
           <p className="py-2 text-foreground">
             I&apos;ve loved technology and engineering for as long as I can remember. 
             I taught myself how to code when I was ten and have been coding ever since. 
-            Nine years later, I&apos;m a sophomore at Northeastern University studying Computer 
+            Ten years later, I&apos;m a sophomore at Trinity College studying Computer 
             Engineering and Computer Science. I love to code and create new things, and I always want 
             to learn more!
           </p>
