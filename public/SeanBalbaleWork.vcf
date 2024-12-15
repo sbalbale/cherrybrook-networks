@@ -3,13 +3,13 @@ VERSION:3.0
 PRODID:-//dot.cards//-
 N:Balbale;Sean;;;
 FN: Sean Balbale
-ORG:Freshman at Northeastern
-ROLE:Bachelor of Science in Computer Science from Northeastern University
+ORG:Sophmore at Trinity College
+ROLE:Bachelor of Science in Computer Science and Computer Engineering from Trinity College
 item1.ADR;type=pref:Boston, Massachusetts
 item1.X-ABLabel:My Location
 item2.TEL;type=CELL;type=voice;type=pref:6176512263
 item2.X-ABLabel:Phone
-item3.EMAIL;type=INTERNET;TYPE=pref:seanbalbale@cherrybrooknetworks.dev
+item3.EMAIL;type=INTERNET;TYPE=pref:sean.balbale@trincoll.edu
 item3.X-ABLabel:Email
 item4.URL;type=pref:https://cherrybrooknetworks.dev
 item4.X-ABLabel:My Portfolio Site
