@@ -8,10 +8,10 @@ const About = () => {
         <div className="col-span-2">
           <h2 className="py-4 text-primary">About Me</h2>
           <p className="py-2 text-foreground">
-            I&apos;m Sean Balbale, a sophomore and student-athlete at Trinity College
-            pursuing a double major in Electrical & Computer Engineering and
-            Computer Science. Passionate about technology since age 10, I have
-            six years of experience in software engineering and technical
+            I&apos;m Sean Balbale, a sophomore and student-athlete at Trinity
+            College pursuing a double major in Electrical & Computer Engineering
+            and Computer Science. Passionate about technology since age 10, I
+            have six years of experience in software engineering and technical
             support, assisting local businesses and students by designing custom
             computers, installing software and Wi-Fi systems, and automating
             cloud backups. My internship at East Coast Metrology allowed me to
@@ -27,11 +27,10 @@ const About = () => {
             systems internship, I am eager to apply my skills, tackle complex
             problems, and continue growing professionally. Let&apos;s connect!
             {/*             
-            I&apos;ve loved technology and engineering for as long as I can
-            remember. I taught myself how to code when I was ten and have been
-            coding ever since. Ten years later, I&apos;m a sophomore at Trinity
-            College studying Computer Engineering and Computer Science. I love
-            to code and create new things, and I always want to learn more! */}
+            I'm a Trinity College sophomore in ECE & CS with 6 years of software engineering 
+            and IT experience. Supported local businesses & interned at East Coast Metrology, 
+            conducting precision measurements & Titan Advanced Energy, developing python 
+            applications. Seeking software/embedded systems internship. */}
           </p>
 
           <Link href="/#projects">
