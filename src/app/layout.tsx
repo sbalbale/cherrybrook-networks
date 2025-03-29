@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Cherrybrook Networks",
   description: "Portfolio website for Sean Balbale",
   icons: {
-    icon: '/icon.ico', // /public path
+    icon: '/favicon.ico', // /public path
   },
 };
 
