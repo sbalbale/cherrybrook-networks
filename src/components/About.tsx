@@ -8,10 +8,10 @@ const About = () => {
         <div className="col-span-2">
           <h2 className="py-4 text-primary">About Me</h2>
           <p className="py-2 text-foreground">
-            I&apos;m Sean Balbale, a sophomore and student-athlete at Trinity
+            I&apos;m Sean Balbale, a junior and student-athlete at Trinity
             College pursuing a double major in Electrical & Computer Engineering
             and Computer Science. Passionate about technology since age 10, I
-            have six years of experience in software engineering and technical
+            have seven years of experience in software engineering and technical
             support, assisting local businesses and students by designing custom
             computers, installing software and Wi-Fi systems, and automating
             cloud backups. My internship at East Coast Metrology allowed me to
@@ -27,7 +27,7 @@ const About = () => {
             systems internship, I am eager to apply my skills, tackle complex
             problems, and continue growing professionally. Let&apos;s connect!
             {/*             
-            I'm a Trinity College sophomore in ECE & CS with 6 years of software engineering 
+            I'm a Trinity College junior in ECE & CS with 7 years of software engineering 
             and IT experience. Supported local businesses & interned at East Coast Metrology, 
             conducting precision measurements & Titan Advanced Energy, developing python 
             applications. Seeking software/embedded systems internship. */}
