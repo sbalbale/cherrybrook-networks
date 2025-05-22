@@ -7,7 +7,7 @@ ORG:Sophmore at Trinity College
 ROLE:Bachelor of Science in Computer Science and Computer Engineering from Trinity College
 item1.ADR;type=pref:Boston, Massachusetts
 item1.X-ABLabel:My Location
-item2.TEL;type=CELL;type=voice;type=pref:6176512263
+item2.TEL;type=CELL;type=voice;type=pref:7812908862
 item2.X-ABLabel:Phone
 item3.EMAIL;type=INTERNET;TYPE=pref:sean.balbale@trincoll.edu
 item3.X-ABLabel:Email
