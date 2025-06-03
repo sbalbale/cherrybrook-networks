@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full bg-background py-4 shadow-sm${
+      className={`fixed top-0 z-50 w-full bg-background py-3 shadow-sm${
         isScrolled ? "border-border border-b-2" : ""
       }`}
     >
@@ -36,8 +36,8 @@ export default function Navbar() {
             <Image
               src="/images/logos/CherrybrookNetworksLogoText.png"
               alt="Logo"
-              width={278}
-              height={50}
+              width={100}
+              height={100}
             />
           </span>
         </Link>
