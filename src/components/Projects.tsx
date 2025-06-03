@@ -7,36 +7,36 @@ export function Projects() {
       title: "CS 2510 Project 2",
       description:
         " This is a Java based image editing software that I made for my CS 2510 class at Northeastern University. It has an interactive menu and uses seam carving to resize images.",
-      link: "https://github.com/sbalbale/CS2510-Project-2",
+      link: "https://github.com/seanbalbale/CS2510-Project-2",
     },
     {
       title: "15-112: Fail Early and Often",
       description:
         " 15-112: Fail Early and Often is a roguelite game that I made for my CMU 15112 term project. I chose to make a roguelite because I love the genre and I thought it would be fun to make.",
-      link: "https://github.com/sbalbale/15-112-Fail-Early-and-Often",
+      link: "https://github.com/seanbalbale/15-112-Fail-Early-and-Often",
     },
     {
       title: "Cherrybrook Networks",
       description:
         " This is a my personal portfolio website. I made it because I wanted to learn Next.js, React and Tailwind. I also wanted to practice using CSS, Javascript, and HTML.",
-      link: "https://github.com/sbalbale/cherrybrook-networks",
+      link: "https://github.com/seanbalbale/cherrybrook-networks",
     },
     {
       title: "Space Invaders",
       description:
         "Space Invaders is a clone of the classic game Space Invaders for the Atari 2600. I made this game because I wanted to practice using Pygame.",
-      link: "https://github.com/sbalbale/SpaceInvaders",
+      link: "https://github.com/seanbalbale/SpaceInvaders",
     },
     {
       title: "WHS Bot",
       description:
         "WHS Bot is a Discord bot that I made for my high school's Discord server. It has a variety of features including a command that gives people roles for the grade they are in, and a command that sends Brooklyn 99 quotes.",
-      link: "https://github.com/sbalbale/WHSbot",
+      link: "https://github.com/seanbalbale/WHSbot",
     },
     {
       title: "Check out my other projects!",
       description: "@sbalbale on Github",
-      link: "https://github.com/sbalbale",
+      link: "https://github.com/seanbalbale",
     },
   ];
 

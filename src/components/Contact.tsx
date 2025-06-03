@@ -71,7 +71,7 @@ export function Contact() {
           <div className="flex items-center space-x-4">
             <Link
               className="text-muted-foreground hover:text-foreground"
-              href="https://github.com/sbalbale"
+              href="https://github.com/seanbalbale"
             >
               <FaGithub className="h-10 w-10" />
             </Link>
