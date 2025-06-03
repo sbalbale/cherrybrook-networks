@@ -77,7 +77,7 @@ const HeroSection = () => {
             </h1>
             <div className="flex items-center justify-evenly py-4">
               <Link
-                href="https://github.com/seanbalbale"
+                href="https://github.com/sbalbale"
                 target="_blank"
                 rel="noopener noreferrer"
               >
